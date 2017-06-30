@@ -1,4 +1,4 @@
-## CACHE THE INVERS OF A MTRIX
+## CACHE THE INVERSE OF A MATRIX
 
 
 ## makeCacheMatrix creates a list containing functions to
@@ -10,7 +10,7 @@
 makeCacheMatrix <- function(x = matrix()) {
 inv <- NULL
 
-##
+
   set <- function(y){
     x <<- y
     inv <<- NULL
